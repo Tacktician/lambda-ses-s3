@@ -1,0 +1,9 @@
+terraform/.terraform
+terraform/terraform.tfvars
+terraform/*.tfstate
+
+*.DS_Store
+
+nodeJS/node_modules
+
+.idea/
