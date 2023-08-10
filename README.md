@@ -1,4 +1,6 @@
-# Email Forwarding Lambda Function
+# Email Forwarding Lambda Function - WIP
+
+> Note: inspired by [this post](https://brunoscheufler.com/blog/2020-08-28-forwarding-emails-with-ses)
 
 This repository provides Lambda functions to forward incoming emails from Amazon SES to another email address while performing necessary modifications to the email content.
 
@@ -57,9 +59,17 @@ These Lambda functions leverage AWS services like Amazon S3 and Amazon SES to pr
 4. Create the Lambda Function in the AWS console: #TODO
 
 ### Golang
+
+1. Naviaget to the `go` directory and build the Go Package
+```sh
+cd source
+env GOOS=linux GOARCH=amd64 go build -o ../terraform/bin/main
 ```
+2. `zip` up the file and prepare for deployment
+```shell
 #TODO
 ```
+
 ## Terraform Deployment
 ```
 #TODO
